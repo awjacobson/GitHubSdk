@@ -32,7 +32,7 @@ public class GitHubClient
             .AppendPathSegment(owner)
             .AppendPathSegment(repo)
             .AppendPathSegment("milestones")
-            .SetQueryParam("state", "state");
+            .SetQueryParam("state", state);
 
         return _client.GetFromJsonAsync<List<Milestone>>(requestUri, cancellationToken);
     }
