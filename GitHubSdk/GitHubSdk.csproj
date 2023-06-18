@@ -9,9 +9,9 @@
     <Title>GitHub client for .NET</Title>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>GitHub; REST; API</PackageTags>
-    <AssemblyVersion>1.0.1</AssemblyVersion>
-    <FileVersion>1.0.1</FileVersion>
-    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.3</AssemblyVersion>
+    <FileVersion>1.03</FileVersion>
+    <Version>1.0.3</Version>
   </PropertyGroup>
 
   <ItemGroup>

@@ -15,12 +15,6 @@ public record Milestone
     [JsonPropertyName("description")]
     public string? Description { get; init; }
 
-    [JsonPropertyName("open_issues")]
-    public int OpenIssues { get; init; }
-
-    [JsonPropertyName("closed_issues")]
-    public int ClosedIssues { get; init; }
-
     [JsonPropertyName("state")]
     public string? State { get; init; }
 
@@ -29,6 +23,24 @@ public record Milestone
 
     [JsonPropertyName("number")]
     public int Number { get; init; }
+
+    [JsonPropertyName("open_issues")]
+    public int OpenIssues { get; init; }
+
+    [JsonPropertyName("closed_issues")]
+    public int ClosedIssues { get; init; }
+
+    [JsonPropertyName("created_at")]
+    public DateTime? CreatedAt { get; init; }
+
+    [JsonPropertyName("updated_at")]
+    public DateTime? UpdatedAt { get; init; }
+
+    [JsonPropertyName("closed_at")]
+    public DateTime? ClosedAt { get; init; }
+
+    [JsonPropertyName("due_on")]
+    public DateTime? DueOn { get; init; }
 
     [JsonPropertyName("url")]
     public string? Url { get; init; }
